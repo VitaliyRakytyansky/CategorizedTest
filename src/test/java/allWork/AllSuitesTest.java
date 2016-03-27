@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 
 @RunWith(Categories.class)
-@Suite.SuiteClasses({TodoOperationsAtAllFilterTest.class, TodoE2ETest.class, Buggy.class})
+@Suite.SuiteClasses({TodoOperationsAtAllFilterTest.class, TodoE2ETest.class})
 public class AllSuitesTest {
 }
