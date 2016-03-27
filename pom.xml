@@ -44,7 +44,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -84,15 +83,13 @@
                     <configuration>
                         <test>allWork.${suite}</test>
                         <systemPropertyVariables>
-                            <webdriver.chrome.driver>C:\Users\Winterfall\Applications\chromedriver.exe</webdriver.chrome.driver>
+                            <webdriver.chrome.driver>C://Users//Winterfall//Applications//chromedriver.exe</webdriver.chrome.driver>
                             <driver.browser>${driver.browser}</driver.browser>
                         </systemPropertyVariables>
                     </configuration>
                 </plugin>
         </plugins>
-
     </build>
-
     <reporting>
         <excludeDefaults>true</excludeDefaults>
         <plugins>
