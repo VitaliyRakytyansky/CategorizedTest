@@ -10,7 +10,6 @@ import org.junit.runners.Suite;
 
 @RunWith(Categories.class)
 @Suite.SuiteClasses({TodoOperationsAtAllFilterTest.class, TodoE2ETest.class})
-@Categories.IncludeCategory(Smoke.class)
 @Categories.ExcludeCategory(Buggy.class)
 public class FullAcceptanceSuitesTest {
 }
