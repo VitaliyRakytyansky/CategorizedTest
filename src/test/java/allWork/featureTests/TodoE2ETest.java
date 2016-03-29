@@ -1,6 +1,6 @@
 package allWork.featureTests;
 
-import allWork.caterories.Smoke;
+import allWork.categories.Smoke;
 import allWork.configs.BaseTest;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;

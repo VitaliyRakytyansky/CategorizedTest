@@ -1,12 +1,11 @@
 package allWork;
 
-import allWork.caterories.Buggy;
 import allWork.featureTests.TodoE2ETest;
 import allWork.featureTests.TodoOperationsAtAllFilterTest;
 import org.junit.experimental.categories.Categories;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
-import allWork.caterories.Smoke;
+import allWork.categories.Smoke;
 
 /**
  * Created by Winterfall on 27.03.2016.

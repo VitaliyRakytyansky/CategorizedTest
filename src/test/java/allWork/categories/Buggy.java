@@ -1,4 +1,4 @@
-package allWork.caterories;
+package allWork.categories;
 
 /**
  * Created by Winterfall on 27.03.2016.

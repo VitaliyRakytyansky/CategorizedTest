@@ -1,13 +1,11 @@
 package allWork.featureTests;
 
-import allWork.caterories.Buggy;
+import allWork.categories.Buggy;
 import allWork.configs.BaseTest;
-import com.codeborne.selenide.Configuration;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import pages.TodoMVCPage;
-import allWork.caterories.Smoke;
+import allWork.categories.Smoke;
 
 import static com.codeborne.selenide.Selenide.$;
 import static pages.TodoMVCPage.TaskType.*;
